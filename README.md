@@ -2,8 +2,8 @@
 This extension modifies OpenCart so that a Customer Custom Field can have a tooltip associated with it to explain to the user what its purpose is.
 
 ## Requirements
-OpenCart, written for v2.1.0.1
-vQmod, written for v2.5.1
+* OpenCart (written for v2.1.0.1)
+* vQmod (written for v2.5.1)
 
 ## Installation
 Place the XML file in vqmod/xml and run the below query on your database, replacing "oc_" with your own prefix

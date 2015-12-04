@@ -6,7 +6,8 @@ OpenCart, written for v2.1.0.1
 vQmod, written for v2.5.1
 
 ## Installation
-Place the XML file in vqmod/xml and run the below query on your database.
+Place the XML file in vqmod/xml and run the below query on your database, replacing "oc_" with your own prefix
+or deleting it if you don't use one.
 ```
 CREATE TABLE IF NOT EXISTS `oc_custom_field_tooltip` (
   `custom_field_id` int(11) NOT NULL,
